@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #ffffff;
+  color: white;
+}
+
+.app {
+  text-align: center;
+  padding: 20px;
+}
+
+.scoreboard {
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+  margin-bottom: 30px;
+}
+
+.scoreboard button {
+  padding: 10px 15px;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+
+.card-container {
+  perspective: 1000px;
+  cursor: pointer;
+}
+
+.card {
+  width: 250px;
+  height: 350px;
+  position: relative;
+  transform-style: preserve-3d;
+}
+
+.card-face {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  backface-visibility: hidden;
+  overflow: hidden;
+  box-shadow: 0 0 15px rgba(255,255,255,0.2);
+}
+
+.front {
+  background: #1e293b;
+}
+
+.front img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+}
+
+.front h3 {
+  padding: 10px;
+}
+
+.back {
+  background: #2563eb;
+  transform: rotateY(180deg);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.back p {
+  font-size: 1.1rem;
+}
