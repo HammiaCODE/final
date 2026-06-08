@@ -7,7 +7,7 @@ const cardsData = [
     id: 1,
     character: "Hook Master",
     image:
-      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTDW4moOflTB_ngPpSddbklsrerv8QGV63VFXcwM01wPQ&s=10",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSV_Ndv5-GEvvEVR7MQnZiKgoVJXpv2KmDg6yncb6sraw&s=10",
     points: "Puntos: 5",
     question:
       "Tienes un codigo que simula una lista del supermercado la cual solo actualizas a veces ¿Qué hook utilizarias para hacerla funcionar y por qué?"
@@ -26,7 +26,7 @@ const cardsData = [
     id: 3,
     character: "Kafka Rider",
     image:
-      "https://upload.wikimedia.org/wikipedia/commons/thumb/2/26/Franz_Kafka%2C_1923.jpg/960px-Franz_Kafka%2C_1923.jpg",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT2ouFtcii-wb8gmKvZe1QIAC-pyBcCk9sIE12Mj0kMjqCAbZGQGqrz79kJ&s=10",
     points: "Puntos: 5",
     question:
       "¿Cuales son las 4 APIs de Kafka?"
